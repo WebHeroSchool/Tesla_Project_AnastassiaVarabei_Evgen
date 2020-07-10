@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tesla</title>
+</head>
+<body>
+<!-- Создание блока header -->
+<header class="header">
+    <!-- В блок header вкладываем элемент logo -->
+    <img src="" alt="logo" class="header__logo"/>
+    <!-- В блок header вкладываем элемент menu -->
+    <nav class="header__menu">
+        <!-- В элементе menu создаем список -->
+        <ul class="menu__list">
+            <li><a href="#" class="menu__link menu__link__active">Model S</a></li>
+            <li><a href="#" class="menu__link">Model X</a></li>
+            <li><a href="#" class="menu__link">Model 3</a></li>
+            <li><a href="#" class="menu__link">Roadster</a></li>
+            <li><a href="#" class="menu__link">Energy</a></li>
+            <li><a href="#" class="menu__link">Магазин</a></li>
+        </ul>
+    </nav>
+    <!-- В блоке header создаем кнопку button -->
+    <p><button class="header__button">Войти</button></p>
+    <!-- В блоке header создаем burger-меню -->
+    <div class="header__burger"></div>
+</header>
+<!-- Создание первого блока с заголовко, подзаголовком и фото с названием -->
+<section class="section-first">
+    <!-- Заголовок модели -->
+    <h1 class="section-first__title">Model S</h1>
+    <!-- Подзаголовок приветствия -->
+    <p class="section-first__subtitle">Добро пожаловать в будущее!</p>
+    <!-- Создание блока с фото с названием -->
+    <div class="content">
+        <!-- Фото с названием Тесла -->
+        <img src="#" alt="Tesla" class="content__text"/>
+        <!-- Фото самой Тесла -->
+        <img src="#" alt="Tesla foto" class="content__img"/>
+    </div>
+    <!--  Создание блока с характеристиками разгона и скорости -->
+    <div class="about">
+        <!--  Создание блока с характеристиками разгона -->
+        <div class="about__time">
+            <!-- Фото спидометра -->
+            <img src="" alt="Speedometr" class="time__foto"/>
+            <div class="time__number">2.7</div>
+            <div class="time__text">сек</div>
+            <div class="time__desc">0-100 км/час</div>
+        </div>
+        <!--  Создание блока с характеристиками скорости -->
+        <div class="about__speed">
+            <!-- Фото зигзага -->
+            <img src="" alt="Stroke" class="speed__foto"/>
+            <div class="speed__number">632</div>
+            <div class="speed__text">км</div>
+            <div class="speed__desc">запас хода</div>
+        </div>
+    </div>
+    <!--  Создание блока с тест-драйв -->
+    <div class="test">
+        <img src="#" alt="Test drive 1" class="test__foto"/>
+    </div>
+    <!-- Создание блока с кнопкой заказать -->
+    <div class="button">
+        <button class="button__text">Заказать</button>
+    </div>
+    <!-- Создание блока со стрелочкой -->
+    <div class="section-first__arrow">
+        <img src="#" alt="Arrow" class="arrow__foto"/>
+    </div>
+</section>
+<!-- Section-first finised -->
+<!--  Создание второго блока с фото и описанием -->
+<section class="section-second">
+    <!--  Создание заголовка третьего уровня -->
+    <h3 class="section-second__title">Model S</h3>
+    <!-- Создание блока с фото -->
+    <div class="section-second__foto">
+        <img src="#" alt="car-inside-Model-S" class="foto__image"/>
+    </div>
+    <!--  Создание блока с описанием -->
+    <aside class="aside">
+        <!-- Создание заголовка -->
+        <h4 class="aside__title">Будущее вождения</h4>
+        <!--  Создание бллока с описательной частью -->
+        <div class="aside__content">
+            <p>
+                Модель S обладает лучшей в своем классе вместимостью: в машине поместится
+                до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным
+                экраном. Усовершенствованная шумовая инженерия создает динамику звука,
+                сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает
+                просторный интерьер для каждого пассажира.
+            </p>
+        </div>
+        <!--  Создание блока с описательными характеристиками -->
+        <div class="aside__it-about">
+            <!--  Создание блока с характеристиками разгона -->
+            <div class="it-about__display">
+                <!-- Фото дисплея с характеристиками -->
+                <img src="#" alt="Display" class="display__foto">
+            </div>
+            <!--  Создание блока с Wifi -->
+            <div class="it-about__wifi">
+                <!-- Фото дисплея с Wifi -->
+                <img src="#" alt="Wifi" class="wifi__foto"/>
+            </div>
+            <!--  Создание блока с capaciti -->
+            <div class="it-about__capaciti">
+                <!-- Фото дисплея с capaciti -->
+                <img src="#" alt="Capaciti" class="capaciti__foto"/>
+            </div>
+        </div>
+        <!--  Создание блока с УЗНАТЬ БОЛЬШЕ -->
+        <div class="aside__test">
+            <img src="#" alt="УЗНАТЬ БОЛЬШЕ" class="test__foto"/>
+        </div>
+        <!-- Создание блока с кнопкой заказать -->
+        <div class="aside__button">
+            <button class="button__text">Заказать</button>
+        </div>
+    </aside>
+</section>
+<!--  Secrion-second finished -->
+<!--  Создание третьей секции -->
+<section class="section-third">
+    <!--  Создание блока с описанием -->
+    <aside class="aside-second">
+        <!-- Создание заголовка -->
+        <h4 class="aside-second__title">Самый безопасный автомобиль в мире</h4>
+        <!--  Создание бллока с описательной частью -->
+        <div class="aside-second__content">
+            <p>
+                Модель S достигла наивысшей оценки безопасности любого автомобиля,
+                когда-либо испытанного, и установила рекорд по наименьшей вероятности
+                травмы пассажиров - от несчастных случаев на переднем, боковом, заднем
+                сидении и в ДТП с переворотом авто.
+            </p>
+        </div>
+        <!--  Создание блока с заголовком -->
+        <div class="aside-second__subtitle">
+            <!-- Создание заголовка -->
+            <h4 class="subtitle__text">Оценка защиты:</h4>
+        </div>
+        <!--  Создание блока с рейтингом-->
+        <div class="aside-second__reting">
+            <!--  Создание блока с характеристиками рейтинга -->
+            <div class="reting__text">
+                <ul class="text__list">
+                    <li class="text__link">Спереди</li>
+                    <li class="text__link">Сбоку</li>
+                    <li class="text__link">Сбоку (стойка)</li>
+                    <li class="text__link">ВОДИТЕЛЬ</li>
+                    <li class="text__link">ПАССАжир</li>
+                </ul>
+            </div>
+            <!--  Создание блока stars -->
+            <div class="reting__star">
+                <ul class="star__list">
+                    <li class="star__link">
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                    </li>
+                    <li class="star__link">
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                    </li>
+                    <li class="star__link">
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                    </li>
+                    <li class="star__link">
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                    </li>
+                    <li class="star__link">
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                        <img src="#" alt="star" class="star__foto"/>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--  Создание блока five -->
+        <div class="aside-second__five">
+            <!-- Создание блока с щитом -->
+            <div class="five__board">
+                <img src="#" alt="Board" class="board__foto"/>
+            </div>
+            <!-- Создание блока с количеством оценок -->
+            <div class="five__text">
+                <img src="#" alt="5 звезд" class="text__foto">
+            </div>
+        </div>
+        <!--  Создание блока с УЗНАТЬ БОЛЬШЕв -->
+        <div class="aside-second__test">
+            <img src="#" alt="УЗНАТЬ БОЛЬШЕ" class="test__foto">
+        </div>
+        <!-- Создание блока с кнопкой заказать -->
+        <div class="aside-second__button">
+            <button class="button__text">Заказать</button>
+        </div>
+    </aside>
+    <!--  Создание блока с заголовком -->
+    <div class="section-third__title">
+        <img src="#" alt="Model S" class="title__foto"/>
+    </div>
+    <!--  Создание блока с foto -->
+    <div class="section-third__car">
+        <img src="#" alt="Car" class="car__foto"/>
+    </div>
+</section>
+</body>
+</html>
