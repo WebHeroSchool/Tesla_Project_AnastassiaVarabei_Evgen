@@ -204,7 +204,7 @@ body {
     top: 1056px;
 }
 .section-second__title {
-    margin-top: 350px;
+    margin-top: 360px;
 }
 
 .section-third {
@@ -253,7 +253,6 @@ body {
     .header__burger img {
         width: 36px;
         height: 22px;
-
     }
     .section-first {
         width: 100%;
@@ -358,13 +357,112 @@ body {
     .header {
         max-width: 355px;
         height: 48px;
+        margin-left: -4px;
+        margin-top: 17px;
+    }
+    .header__logo {
+        width: 138px;
+        height: 42px;
+    }
+    .header__burger {
+        padding-left: 192px;
+        padding-top: 20px;
+    }
+    .header__burger img {
+        width: 24px;
+        height: 15px;
     }
     .section-first {
         width: 355px;
+        background-size: 420px;
+        background-position: -16px 170px;
     }
-    .header__menu,
-    .header__button {
-        display: none;
+    .section-first__title {
+        width: 375px;
+        padding-top: 90px;
+        font-size: 50px;
+        margin-top: -56px;
     }
+    .section-first__subtitle {
+        margin-left: 21px;
+        font-size: 10px;
+        margin-top: -2px;
+    }
+    .content__img {
+        width: 357px;
+        height: 166px;
+        margin-top: 48px;
+        margin-left: 9px
+    }
+    .about__time {
+        padding-left: 218px;
+        padding-top: 0;
+    }
+    .time__foto {
+        width: 45.92px;
+        height: 50.16px;
+    }
+    .time__number {
+        font-size: 27px;
+        padding-left: 10px;
+        margin-top: -12px;
+    }
+    .time__text {
+        font-size: 15px;
+        padding-left: 9px;
+        padding-top: 12px;
+    }
+    .time__desc {
+        font-size: 10px;
+        margin-left: -75px;
+        margin-top: -11px;
+    }
+    .about__speed {
+        padding-top: 0;
+        padding-left: 36px;
+    }
+    .speed__foto {
+        width: 55px;
+        height: 52px;
+    }
+    .speed__number {
+        font-size: 27px;
+        margin-left: -10px;
+        margin-top: 3px;
+    }
+    .speed__text {
+        font-size: 15px;
+        padding-left: 8px;
+        padding-top: 15px;
+    }
+    .speed__desc {
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: -77px;
+        margin-top: -5px;
+    }
+    .test {
+        padding-top: 109px;
+        background: url("image/Test drive 1 (red 2).png") no-repeat;
+        margin-top: 48px;
+        margin-left: 36px;
+    }
+    .button {
+        margin-left: 179px;
+        margin-top: -117px;
+        width: 160px;
+        height: 40px;
+        background: #E51937;
+    }
+    .button__text {
+        font-size: 13px;
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-left: 42px;
+    }
+    .section-first__arrow {
+        padding-left: 172px;
+        padding-top: 30px;
 
+    }
 }
