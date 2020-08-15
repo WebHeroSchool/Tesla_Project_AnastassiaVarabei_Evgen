@@ -262,7 +262,7 @@ body {
         background-position: -14px 186px;
     }
     .section-first__title {
-        /*width: 768px;*/
+        width: 768px;
         padding-top: 90px;
     }
     .section-first__subtitle {
