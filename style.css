@@ -1,0 +1,468 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background: #FFFFFF;
+}
+.header {
+    margin: 0 auto;
+    display: flex;
+    width: 1337.28px;
+    height: 51px;
+    padding: 0;
+    margin-top: 24px;
+    margin-left: 42.7px;
+}
+.header__logo {
+    display: flex;
+    width: 166px;
+    height: 51px;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    padding-left: 258px;
+    top: 2px;
+}
+.menu__link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.menu__link:nth-child(2) {
+    padding-left: 63px;
+    padding-right: 25px;
+}
+.menu__link:nth-child(4) {
+    padding-left: 45px;
+    padding-right: 46px;
+}
+.menu__link:nth-child(5) {
+   padding-right: 221px;
+}
+/*.menu__link:hover {*/
+/*    color: #e51937;*/
+/*    border-bottom: 2px solid #e51937;*/
+/*}*/
+.menu__link__active {
+    color: #e51937;
+    border-bottom: 2px solid #e51937;
+}
+.header__button {
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    padding-top: 17px;
+    padding-left: 30px;
+}
+.header__burger {
+    width: 24px;
+    height: 15px;
+    padding-top: 13px;
+    padding-left: 31px;
+}
+.section-first {
+    width: 1440px;
+    height: 594px;
+    background: url("image/Tesla-Wordmark-Red.png");
+    background-position: center;
+}
+.section-first__title {
+    width: 1440px;
+    padding-top: 58px;
+    font-weight: 600;
+    font-size: 90px;
+    text-align: center;
+    color: #000000;
+
+}
+.section-first__subtitle {
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: -10px;
+    color: #000000;
+}
+.content {
+    padding-top: 26px;
+    padding-left: 199px;
+
+}
+.about {
+    display: flex;
+}
+.about__time {
+    display: flex;
+    padding-left: 316px;
+    padding-top: 17px;
+}
+.time__foto {
+    padding-top: 11px;
+}
+.time__number {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 6px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #000000;
+}
+.time__text {
+    padding-top: 21px;
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.time__desc {
+    font-size: 12px;
+    padding-top: 47px;
+    margin-left: -94px;
+}
+
+.about__speed {
+    display: flex;
+    padding-left: 94px;
+    padding-top: 23px;
+}
+.speed__foto {
+    padding-top: 9px;
+    height: 64px;
+}
+.speed__number {
+    padding-left: 8px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #000000;
+}
+.speed__text {
+    padding-top: 14px;
+    padding-left: 7px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+.speed__desc {
+    padding-top: 41px;
+    margin-left: -98px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.test {
+    display: flex;
+    padding-left: 796px;
+    margin-top: -45px;
+}
+.button {
+    width: 160px;
+    height: 40px;
+    margin-left: 959px;
+    margin-top: -38px;
+    border: 2px solid #E51937;
+    box-sizing: border-box;
+}
+.button__text {
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #E51937;
+    background: transparent;
+    padding-top: 9px;
+    padding-left: 41.5px;
+    letter-spacing: .8px;
+}
+.section-first__arrow {
+    width: 28px;
+    height: 14px;
+    padding-left: 703px;
+    padding-top: 40px;
+}
+
+/*Style section-second*/
+.section-second {
+    /*position: absolute;*/
+    width: 1548px;
+    height: 844px;
+    left: -275px;
+    top: 1056px;
+}
+.section-second__title {
+    margin-top: 360px;
+}
+
+.section-third {
+    margin-top: 100px;
+    /*position: absolute;*/
+    width: 1380px;
+    height: 1200px;
+    left: -275px;
+    top: 956px;
+}
+/*Адаптивное отображение*/
+@media (max-width: 1024px) {
+    .header__menu,
+    .header__button {
+        display: none;
+    }
+    .header__burger {
+        padding-left: 518px;
+        padding-top: 24px;
+    }
+    /*.header__burger {*/
+    /*    width: 36px;*/
+    /*    height: 22px;*/
+    /*    padding-left: 417px;*/
+    /*}*/
+
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+    .header__logo {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .header__burger {
+        padding-left: 518px;
+        padding-top: 24px;
+    }
+    .header__burger img {
+        width: 36px;
+        height: 22px;
+    }
+    .section-first {
+        width: 100%;
+        background-size: 845px;
+        background-repeat: no-repeat;
+        background-position: -14px 186px;
+    }
+    .section-first__title {
+        width: 768px;
+        padding-top: 90px;
+    }
+    .section-first__subtitle {
+        margin-left: 16px;
+        /*font-size: 12px;*/
+        margin-top: -9px;
+    }
+    .content {
+        width: 672px;
+        padding-left: 0;
+        margin-top: -24px;
+    }
+    .content__img {
+        width: 701.6px;
+        height: 323.64px;
+        margin-top: 88px;
+        margin-left: 34px;
+    }
+    .about {
+        margin-left: -180px;
+        margin-top: 17px;
+    }
+     .time__foto {
+        width: 74.92px;
+        height: 86.16px;
+    }
+    .time__number {
+        font-size: 50px;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+    .time__text {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 23px;
+    }
+    .time__desc {
+        margin-left: -118px;
+        margin-top: 13px;
+    }
+    .speed__foto {
+        width: 102px;
+        height: 84px;
+    }
+    .speed__number {
+        font-size: 50px;
+        margin-left: -20px;
+        margin-top: -7px;
+    }
+    .speed__text {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+    .speed__desc {
+        margin-left: -128px;
+        margin-top: 12px;
+    }
+    .test {
+        padding-top: 109px;
+        background: url("image/Test drive 1 (red).png") no-repeat;
+        margin-top: 59px;
+        margin-left: 173px;
+    }
+    .test__foto {
+        display: none;
+    }
+    .button {
+        margin-left: 371px;
+        margin-top: -120px;
+        width: 220.84px;
+        height: 55.21px;
+        background: #E51937;
+    }
+    .button__text {
+        font-size: 16px;
+        text-transform: uppercase;
+        padding-top: 18px;
+        padding-left: 65px;
+        color: #FFFFFF
+
+    }
+    .section-first__arrow {
+        padding-left: 368px;
+        padding-top: 60px;
+
+    }
+}
+@media (max-width: 375px) {
+    body {
+        width: 375px;
+    }
+    .header {
+        max-width: 355px;
+        height: 48px;
+        margin-left: -4px;
+        margin-top: 17px;
+    }
+    .header__logo {
+        width: 138px;
+        height: 42px;
+    }
+    .header__burger {
+        padding-left: 192px;
+        padding-top: 20px;
+    }
+    .header__burger img {
+        width: 24px;
+        height: 15px;
+    }
+    .section-first {
+        width: 355px;
+        background-size: 420px;
+        background-position: -16px 170px;
+    }
+    .section-first__title {
+        width: 375px;
+        padding-top: 90px;
+        font-size: 50px;
+        margin-top: -56px;
+    }
+    .section-first__subtitle {
+        margin-left: 21px;
+        font-size: 10px;
+        margin-top: -2px;
+    }
+    .content__img {
+        width: 357px;
+        height: 166px;
+        margin-top: 48px;
+        margin-left: 9px
+    }
+    .about__time {
+        padding-left: 218px;
+        padding-top: 0;
+    }
+    .time__foto {
+        width: 45.92px;
+        height: 50.16px;
+    }
+    .time__number {
+        font-size: 27px;
+        padding-left: 10px;
+        margin-top: -12px;
+    }
+    .time__text {
+        font-size: 15px;
+        padding-left: 9px;
+        padding-top: 12px;
+    }
+    .time__desc {
+        font-size: 10px;
+        margin-left: -75px;
+        margin-top: -11px;
+    }
+    .about__speed {
+        padding-top: 0;
+        padding-left: 36px;
+    }
+    .speed__foto {
+        width: 55px;
+        height: 52px;
+    }
+    .speed__number {
+        font-size: 27px;
+        margin-left: -10px;
+        margin-top: 3px;
+    }
+    .speed__text {
+        font-size: 15px;
+        padding-left: 8px;
+        padding-top: 15px;
+    }
+    .speed__desc {
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: -77px;
+        margin-top: -5px;
+    }
+    .test {
+        padding-top: 109px;
+        background: url("image/Test drive 1 (red 2).png") no-repeat;
+        margin-top: 48px;
+        margin-left: 36px;
+    }
+    .button {
+        margin-left: 179px;
+        margin-top: -117px;
+        width: 160px;
+        height: 40px;
+        background: #E51937;
+    }
+    .button__text {
+        font-size: 13px;
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-left: 42px;
+    }
+    .section-first__arrow {
+        padding-left: 172px;
+        padding-top: 30px;
+
+    }
+}

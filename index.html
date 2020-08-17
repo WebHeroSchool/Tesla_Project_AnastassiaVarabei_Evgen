@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Tesla</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Создание блока header -->
 <header class="header">
     <!-- В блок header вкладываем элемент logo -->
-    <img src="" alt="logo" class="header__logo"/>
+    <img src="image/logo.svg" alt="logo" class="header__logo"/>
     <!-- В блок header вкладываем элемент menu -->
     <nav class="header__menu">
         <!-- В элементе menu создаем список -->
-        <ul class="menu__list">
-            <li><a href="#" class="menu__link menu__link__active">Model S</a></li>
-            <li><a href="#" class="menu__link">Model X</a></li>
-            <li><a href="#" class="menu__link">Model 3</a></li>
-            <li><a href="#" class="menu__link">Roadster</a></li>
-            <li><a href="#" class="menu__link">Energy</a></li>
-            <li><a href="#" class="menu__link">Магазин</a></li>
-        </ul>
+        <a href="#" class="menu__link menu__link__active">Model S</a>
+        <a href="#" class="menu__link">Model X</a>
+        <a href="#" class="menu__link">Model 3</a>
+        <a href="#" class="menu__link">Roadster</a>
+        <a href="#" class="menu__link">Energy</a>
+        <a href="#" class="menu__link">Магазин</a>
     </nav>
     <!-- В блоке header создаем кнопку button -->
     <p><button class="header__button">Войти</button></p>
     <!-- В блоке header создаем burger-меню -->
-    <div class="header__burger"></div>
+    <div class="header__burger">
+        <!--        Foto burger-menu-->
+        <img src="image/menu.svg" alt="menu">
+    </div>
 </header>
 <!-- Создание первого блока с заголовко, подзаголовком и фото с названием -->
 <section class="section-first">
@@ -36,24 +39,24 @@
     <!-- Создание блока с фото с названием -->
     <div class="content">
         <!-- Фото с названием Тесла -->
-        <img src="#" alt="Tesla" class="content__text"/>
+        <!--        <img src="" alt="Tesla" class="content__text"/>-->
         <!-- Фото самой Тесла -->
-        <img src="#" alt="Tesla foto" class="content__img"/>
+        <img src="image/tesla-png-tesla-png-hd-1636.png" alt="Tesla foto" class="content__img"/>
     </div>
     <!--  Создание блока с характеристиками разгона и скорости -->
     <div class="about">
         <!--  Создание блока с характеристиками разгона -->
         <div class="about__time">
             <!-- Фото спидометра -->
-            <img src="" alt="Speedometr" class="time__foto"/>
-            <div class="time__number">2.7</div>
+            <img src="image/Speed.svg" alt="Speedometr" class="time__foto"/>
+            <div class="time__number">2,7</div>
             <div class="time__text">сек</div>
             <div class="time__desc">0-100 км/час</div>
         </div>
         <!--  Создание блока с характеристиками скорости -->
         <div class="about__speed">
             <!-- Фото зигзага -->
-            <img src="" alt="Stroke" class="speed__foto"/>
+            <img src="image/Road%20icon.svg" alt="Stroke" class="speed__foto"/>
             <div class="speed__number">632</div>
             <div class="speed__text">км</div>
             <div class="speed__desc">запас хода</div>
@@ -61,7 +64,7 @@
     </div>
     <!--  Создание блока с тест-драйв -->
     <div class="test">
-        <img src="#" alt="Test drive 1" class="test__foto"/>
+        <img src="image/Test%20drive%201.png" alt="Test drive 1" class="test__foto"/>
     </div>
     <!-- Создание блока с кнопкой заказать -->
     <div class="button">
@@ -69,17 +72,17 @@
     </div>
     <!-- Создание блока со стрелочкой -->
     <div class="section-first__arrow">
-        <img src="#" alt="Arrow" class="arrow__foto"/>
+        <img src="image/Vector.svg" alt="Arrow" class="arrow__foto"/>
     </div>
 </section>
-<!-- Section-first finised -->
+<!-- Section-first finished -->
 <!--  Создание второго блока с фото и описанием -->
 <section class="section-second">
     <!--  Создание заголовка третьего уровня -->
     <h3 class="section-second__title">Model S</h3>
     <!-- Создание блока с фото -->
     <div class="section-second__foto">
-        <img src="#" alt="car-inside-Model-S" class="foto__image"/>
+        <img src="image/2013-tesla-model-s-cockpit.png" alt="car-inside-Model-S" class="foto__image"/>
     </div>
     <!--  Создание блока с описанием -->
     <aside class="aside">
