@@ -24,11 +24,12 @@ body {
     display: flex;
     width: 166px;
     height: 51px;
+    margin-right: 258px;
 }
 .header__menu {
     display: flex;
     align-items: center;
-    padding-left: 258px;
+    /*padding-left: 258px;*/
     top: 2px;
 }
 .menu__link {
@@ -74,13 +75,13 @@ body {
     padding-left: 31px;
 }
 .section-first {
-    width: 1440px;
+    max-width: 1440px;
     height: 594px;
     background: url("image/Tesla-Wordmark-Red.png");
     background-position: center;
 }
 .section-first__title {
-    width: 1440px;
+    width: 100%;
     padding-top: 58px;
     font-weight: 600;
     font-size: 90px;
@@ -331,8 +332,8 @@ body {
 }
 .section-third {
     display: flex;
-    width: 1488px;
-    height: 900px;
+    max-width: 1488px;
+    max-height: 900px;
     background: url("image/Model S.png");
     background-repeat: no-repeat;
     background-position: 0 145px;
@@ -341,7 +342,7 @@ body {
 .aside-second {
     margin-left: -1050px;
     width: 440px;
-    height: 900px;
+    height: 100%;
     background: #E51937;
 }
 .aside-second__title {
@@ -457,9 +458,63 @@ body {
     .header__button {
         display: none;
     }
+    .header__logo {
+        margin-right: 200px;
+    }
     .header__burger {
         padding-left: 518px;
         padding-top: 24px;
+    }
+    .section-first {
+        background-size: 1101px;
+    }
+    .content {
+        padding-left: 10px;
+        padding-top: 90px;
+    }
+    .about__time {
+        padding-left: 70px;
+    }
+    .test {
+        padding-left: 550px;
+    }
+    .button {
+        margin-left: 720px;
+    }
+    .section-first__arrow {
+        padding-left: 460px;
+    }
+    .aside {
+        margin-left: 564px;
+        height: 100%;
+        margin-top: 0;
+    }
+    .section-second {
+        background-position: 0 456px;
+        background-size: 95%;
+    }
+    .section-second__title {
+        margin-bottom: -100px;
+    }
+    .aside__test {
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    .aside__button {
+        margin-top: -60px;
+        margin-bottom: 30px;
+    }
+    .section-third {
+        background-size: 555px;
+        background-position: 450px 145px;
+    }
+    .aside-second {
+        width: 40%;
+    }
+    .car__foto {
+        width: 70%;
+        left: 291px;
+        top: 155px;
     }
 }
 
@@ -475,6 +530,7 @@ body {
     .header__logo {
         margin-top: 10px;
         margin-left: 5px;
+        margin-right: 0;
     }
     .header__burger {
         padding-left: 518px;
@@ -489,6 +545,7 @@ body {
         background-size: 845px;
         background-repeat: no-repeat;
         background-position: -14px 186px;
+        margin-bottom: 150px;
     }
     .section-first__title {
         width: 768px;
@@ -511,8 +568,8 @@ body {
         margin-left: 34px;
     }
     .about {
-        margin-left: -180px;
         margin-top: 17px;
+        padding-left: 76px;
     }
      .time__foto {
         width: 74.92px;
@@ -581,13 +638,13 @@ body {
     }
     .section-second {
         background: url("image/2013-tesla-model-s-cockpit (1).png") no-repeat;
-        background-position-y: 399px;
+        background-position-y: 260px;
     }
     .section-second__title {
-        margin-top: 408px;
+        /*margin-top: 308px;*/
         margin-left: 435px;
         width: 767px;
-        height: 485px;
+        height: 530px;
     }
     .aside {
         display: flex;
@@ -720,6 +777,7 @@ body {
         width: 355px;
         background-size: 420px;
         background-position: -16px 170px;
+        margin-bottom: 50px;
     }
     .section-first__title {
         width: 375px;
@@ -738,8 +796,11 @@ body {
         margin-top: 48px;
         margin-left: 9px
     }
+    .about {
+        padding-left: 0;
+    }
     .about__time {
-        padding-left: 218px;
+        padding-left: 40px;
         padding-top: 0;
     }
     .time__foto {
