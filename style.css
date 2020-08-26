@@ -341,6 +341,7 @@ body {
 }
 .aside-second {
     margin-left: -1050px;
+    padding-bottom: 50px;
     width: 440px;
     height: 100%;
     background: #E51937;
@@ -454,6 +455,9 @@ body {
 }
 /*Адаптивное отображение*/
 @media (max-width: 1024px) {
+    .header {
+        width: 100%;
+    }
     .header__menu,
     .header__button {
         display: none;
@@ -485,12 +489,12 @@ body {
         padding-left: 460px;
     }
     .aside {
-        margin-left: 564px;
+        margin-left: 574px;
         height: 100%;
         margin-top: 0;
     }
     .section-second {
-        background-position: 0 456px;
+        background-position: 0 475px;
         background-size: 95%;
     }
     .section-second__title {
@@ -516,6 +520,13 @@ body {
         left: 291px;
         top: 155px;
     }
+}
+@media (max-width: 960px) {
+    .section-second {
+        background-position: 0 483px;
+    }
+    .aside {
+        margin-left: 581px;
 }
 
 @media (max-width: 768px) {
@@ -682,7 +693,7 @@ body {
         width: 220.84px;
         height: 55.21px;
         border: 3px solid #FFFFFF;
-        margin-top: -54px;
+        margin-top: -70px;
         margin-left: 363px;
     }
     .button__text {
@@ -723,9 +734,9 @@ body {
         display: none;
     }
     .aside-second__test {
-        margin-bottom: 131px;
+        /*margin-bottom: 131px;*/
         padding-top: 0;
-        padding-bottom: 55px;
+        /*padding-bottom: 55px;*/
     }
     .aside-second__test img {
         display: flex;
@@ -734,7 +745,7 @@ body {
         padding-left: 121px;
     }
     .aside-second__button {
-        margin-top: -233px;
+        /*margin-top: -233px;*/
         margin-left: 391px;
         width: 220px;
         height: 55px;
@@ -749,7 +760,6 @@ body {
     .car__foto {
         display: none;
     }
-
 }
 @media (max-width: 375px) {
     body {
@@ -868,7 +878,6 @@ body {
     .section-first__arrow {
         padding-left: 172px;
         padding-top: 30px;
-
     }
     .section-second {
         background: url("image/2013-tesla-model-s-cockpit (2).png") no-repeat;
@@ -924,7 +933,7 @@ body {
     .aside-second__reting {
         display: none;
     }
-     .aside-second__test {
+    .aside-second__test {
         display: none;
     }
     .aside-second__test img {
