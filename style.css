@@ -525,8 +525,10 @@ body {
     .section-second {
         background-position: 0 483px;
     }
+
     .aside {
         margin-left: 581px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -640,12 +642,10 @@ body {
         padding-top: 18px;
         padding-left: 65px;
         color: #FFFFFF
-
     }
     .section-first__arrow {
         padding-left: 368px;
         padding-top: 60px;
-
     }
     .section-second {
         background: url("image/2013-tesla-model-s-cockpit (1).png") no-repeat;
