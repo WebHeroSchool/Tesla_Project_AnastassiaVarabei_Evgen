@@ -118,9 +118,9 @@ body {
 }
 .information {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding-left: 135px;
+    /*padding-left: 135px;*/
 }
 .about {
     display: flex;
