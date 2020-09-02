@@ -225,7 +225,7 @@ body {
     width: 28px;
     height: 14px;
     /*padding-left: 703px;*/
-    padding-top: 40px;
+    padding-top: 26px;
     margin: 0 auto;
 }
 
@@ -237,6 +237,7 @@ body {
     background-image: url("image/2013-tesla-model-s-cockpit.png");
     background-position: 0 285px;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .section-second__title {
     padding-left: 80px;
@@ -249,7 +250,7 @@ body {
 .aside {
     width: 440px;
     height: 900px;
-    margin-left: 1000px;
+    margin-left: auto;
     margin-top: -151px;
     padding-top: 52px;
     padding-left: 47px;
@@ -526,7 +527,7 @@ body {
         /*padding-left: 460px;*/
     }
     .aside {
-        margin-left: 574px;
+        /*margin-left: 574px;*/
         height: 100%;
         margin-top: 0;
     }
@@ -685,7 +686,7 @@ body {
     .test {
         /*padding-top: 109px;*/
         width: 210px;
-        background: url("image/Test drive 1 (red).png");
+        background: url("image/Test drive 1 (red).png") no-repeat;
         background-position: center;
         /*margin-top: 59px;*/
         /*margin-left: 173px;*/
@@ -718,7 +719,7 @@ body {
     }
     .section-second__title {
         /*margin-top: 308px;*/
-        margin-left: 435px;
+        /*margin-left: 435px;*/
         width: 767px;
         height: 530px;
     }
