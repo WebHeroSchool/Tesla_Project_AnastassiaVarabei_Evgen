@@ -531,6 +531,7 @@ body {
   .content__img {
     padding-right: 0;
   }
+  
   .section-second {
     background-position: -5px 280px;
   }
@@ -540,7 +541,7 @@ body {
   .header {
     width: 100%;
   }
-  
+
   .header__menu,
   .header__button,
   .menu__link {
