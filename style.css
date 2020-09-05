@@ -257,7 +257,7 @@ body {
 .information__block__aside,
 .information__number-title-aside,
 .information__number-subtitle-aside {
-    color: #fff;
+  color: #fff;
   width: 100%;
 }
 
@@ -531,7 +531,6 @@ body {
   .content__img {
     padding-right: 0;
   }
-  
   .section-second {
     background-position: -5px 280px;
   }
@@ -712,7 +711,7 @@ body {
     font-size: 16px;
     text-transform: uppercase;
     padding-left: 65px;
-    color: #ffffff;
+    color: #fff;
   }
   
   .section-first__arrow {
