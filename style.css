@@ -49,6 +49,16 @@ body {
   border-bottom: 2px solid #e51937;
 }
 
+.menu__link-X {
+  position: relative;
+  padding-left: 20px;
+}
+
+.menu__link-3 {
+  position: relative;
+  margin-left: -20px;
+}
+
 .header__menu-second {
   width: 205px;
   display: flex;
@@ -179,6 +189,7 @@ body {
   margin-top: 17px;
   border: 2px solid #e51937;
   box-sizing: border-box;
+  outline: none;
 }
 
 .button__text {
@@ -251,7 +262,7 @@ body {
 }
 
 .aside__content p {
-  line-height: 127%;
+  line-height: 120%;
 }
 
 .information__block__aside,
@@ -646,7 +657,7 @@ body {
     padding-right: 16px;
     padding-left: 13px;
   }
-
+  
   .information {
     flex-direction: column;
     max-width: 500px;
@@ -747,7 +758,11 @@ body {
     padding-top: 21px;
     padding-left: 4px;
   }
-
+  
+  .aside__content p {
+    line-height: 127%;
+  }
+  
   .aside__it-about {
     padding-left: 423px;
     margin-top: -308px;
@@ -790,15 +805,15 @@ body {
   .test__foto-aside {
     width: 210px;
     display: flex;
-    height: 46px;
+    height: 54px;
     padding-top: 20px;
   }
 
   .information__block__button-aside {
     width: 220px;
     height: 55px;
-    margin-top: 23px;
-    margin-left: 3px;
+    margin-top: 25px;
+    margin-left: 26px;
   }
 
   .section-third {
@@ -854,6 +869,10 @@ body {
 
   .group__second__aside-five {
     justify-content: flex-end;
+  }
+  
+  .test__foto-aside-five {
+    padding-left: 0;
   }
 
   .car__foto {
@@ -1078,7 +1097,7 @@ body {
   }
 
   .information__block__icon {
-    width: 114px;
+    width: 118px;
     background: url("image/Test drive 1 (red 2).png") no-repeat;
     background-position: center;
     margin-top: 6px;
@@ -1176,5 +1195,35 @@ body {
     background-position-y: 57px;
     padding-top: 294px;
     height: 600px;
+  }
+}
+
+@media (max-width: 321px) {
+  .section-first {
+    background-size: 360px;
+  }
+
+  .information {
+    max-width: 285px;
+  }
+
+  .aside__content,
+  .aside-second__content {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .aside-second__content {
+    padding-right: 15px;
+  }
+
+  .section-third__car {
+    background-size: 100%;
+    padding-left: 0;
+  }
+
+  .aside__title,
+  .aside-second__title {
+    font-size: 25px;
   }
 }
