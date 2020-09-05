@@ -257,7 +257,7 @@ body {
 .information__block__aside,
 .information__number-title-aside,
 .information__number-subtitle-aside {
-  color: #ffffff;
+    color: #fff;
   width: 100%;
 }
 
@@ -600,7 +600,6 @@ body {
   .information__group {
     width: 330px;
   }
-  
 }
 
 @media (max-width: 850px) {
@@ -860,7 +859,6 @@ body {
   .car__foto {
     display: none;
   }
-  
 }
 
 @media (max-width: 691px) {
@@ -875,7 +873,6 @@ body {
   .aside-second__reting {
     padding-left: 370px;
   }
-  
 }
 
 @media (max-width: 660px) {
@@ -898,7 +895,6 @@ body {
   .information__group-second-aside {
     display: none;
   }
-  
 }
 
 @media (max-width: 450px) {
@@ -1013,7 +1009,6 @@ body {
   .aside-second__reting {
     display: none;
   }
-  
 }
 
 @media (max-width: 380px) {
@@ -1182,5 +1177,4 @@ body {
     padding-top: 294px;
     height: 600px;
   }
-  
 }
