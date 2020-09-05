@@ -189,7 +189,7 @@ body {
   background: transparent;
   margin-top: -18px;
   padding-left: 41.5px;
-  letter-spacing: 0.8px;
+  letter-spacing: .8px;
 }
 
 .section-first__arrow {
@@ -247,7 +247,7 @@ body {
   font-size: 15px;
   margin-bottom: 44px;
   padding-left: 5px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .aside__content p {
@@ -580,7 +580,6 @@ body {
   .car__foto {
     top: 155px;
   }
-  
 }
 
 @media (max-width: 960px) {
