@@ -1,6 +1,6 @@
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     padding: 0;
     margin: 0;
     border: 0;
@@ -10,9 +10,9 @@
 body {
     margin: 0 auto;
     max-width: 1440px;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    background: #ffffff;
+    background: #fff;
 }
 
 .header {
@@ -200,6 +200,7 @@ body {
 }
 
 /*Style section-second*/
+
 .section-second {
     width: 100%;
     display: flex;
@@ -247,6 +248,7 @@ body {
     margin-bottom: 44px;
     padding-left: 5px;
     color: #ffffff;
+    line-height: 127%;
 }
 
 .information__block__aside,
@@ -303,12 +305,18 @@ body {
     padding-left: 0;
 }
 
+.test__foto-aside-five {
+    padding-left: 11px;
+}
+
 .information__block__icon-aside {
-    width: 48%;
+    width: 43%;
+    height: 53px;
 }
 
 .information__block__button-aside {
     margin-top: 17px;
+    margin-left: 20px;
 }
 
 .information__group-second-aside {
@@ -392,16 +400,20 @@ body {
 
 .text__link:nth-child(3) {
     display: flex;
-    padding-bottom: 15px;
-}
-
-.text__link:nth-child(4) {
     padding-bottom: 17px;
 }
 
+.text__link:nth-child(4) {
+    padding-bottom: 16px;
+}
+
+.star__link:nth-child(1) {
+    margin-top: -2px;
+}
+
 .star__link:nth-child(2) {
-    padding-top: 8px;
-    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-bottom: 10px;
 }
 
 .star__link:nth-child(4) {
@@ -420,9 +432,18 @@ body {
 }
 
 .reting__star {
-    margin-left: 29px;
+    margin-left: 32px;
     width: 160px;
     justify-content: space-between;
+}
+
+.star__foto:nth-child(2) {
+    margin-left: -1px;
+    margin-right: -2px;
+}
+
+.star__foto:nth-child(4) {
+    margin-right: -4px;
 }
 
 .star__foto {
@@ -445,7 +466,7 @@ body {
 }
 
 .text__foto {
-    width: 62px;
+    width: 65px;
     height: 82px;
     padding-top: 10px;
 }
@@ -461,11 +482,13 @@ body {
 
 .number__subtitle__aside-five {
     padding-top: 0;
+    padding-left: 13px;
 }
 
 .number__text__aside-five {
     font-size: 25px;
     margin-top: -9px;
+    padding-left: 24px;
 }
 
 .group__second__aside-five {
@@ -505,6 +528,10 @@ body {
 }
 
 @media (max-width: 1121px) {
+    .content__img {
+        padding-right: 0;
+    }
+
     .section-second {
         background-position: -5px 280px;
     }
