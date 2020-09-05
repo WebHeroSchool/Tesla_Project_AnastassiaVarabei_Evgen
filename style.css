@@ -563,20 +563,20 @@ body {
   .aside {
     height: 100%;
   }
-  
+
   .section-second {
     background-position: 0 360px;
   }
-  
+
   .section-third {
     background-size: 555px;
     background-position: 450px 145px;
   }
-  
+
   .aside-second {
     width: 40%;
   }
-  
+
   .car__foto {
     top: 155px;
   }
@@ -592,11 +592,11 @@ body {
   .section-second {
     background-position: 0 440px;
   }
-  
+
   .section-second__title {
     width: 40%;
   }
-  
+
   .information__group {
     width: 330px;
   }
@@ -612,71 +612,71 @@ body {
   body {
     width: 100%;
   }
-  
+
   .header {
     width: 100%;
     padding: 25px 47px 0 15px;
   }
-  
+
   .header__burger img {
     width: 36px;
     height: 22px;
   }
-  
+
   .section-first {
     width: 100%;
     background-repeat: no-repeat;
     background-position: -5px 181px;
     background-size: 822px;
   }
-  
+
   .section-first__title {
     padding-top: 80px;
   }
-  
+
   .content {
     width: 100%;
     padding-left: 0;
     margin-top: -24px;
   }
-  
+
   .content__img {
     width: 95%;
     margin-top: 88px;
     padding-right: 16px;
     padding-left: 13px;
   }
-  
+
   .information {
     flex-direction: column;
     max-width: 500px;
   }
-  
+
   .information__group {
     width: 100%;
     margin: 0 auto;
   }
-  
+
   .time__foto {
     width: 77px;
     height: 111px;
   }
-  
+
   .information__number-title {
     font-size: 50px;
     padding-top: 12px;
   }
-  
+
   .information__number-subtitle {
     padding-top: 22px;
     padding-left: 15px;
   }
-  
+
   .information__number-text {
     padding-left: 14px;
     margin-top: -1px;
   }
-  
+
   .speed__foto {
     width: 90px;
     height: 104px;
@@ -684,22 +684,22 @@ body {
     padding-left: 32px;
     margin-bottom: 40px;
   }
-  
+
   .information-block {
     width: 100%;
     margin: 0 auto;
   }
-  
+
   .information__block__icon {
     width: 238px;
     background: url("image/Test drive 1 (red).png") no-repeat;
     background-position: center;
   }
-  
+
   .test__foto {
     display: none;
   }
-  
+
   .information__block__button {
     width: 220px;
     height: 55px;
@@ -707,23 +707,23 @@ body {
     margin-right: 40px;
     margin-top: 7px;
   }
-  
+
   .button__text {
     font-size: 16px;
     text-transform: uppercase;
     padding-left: 65px;
     color: #fff;
   }
-  
+
   .section-first__arrow {
     padding-top: 60px;
   }
-  
+ 
   .section-second {
     background: url("image/2013-tesla-model-s-cockpit (1).png") no-repeat;
     background-position-y: 82px;
   }
-  
+
   .section-second__title {
     width: 100%;
     height: 575px;
@@ -731,7 +731,7 @@ body {
     text-align: end;
     padding-right: 46px;
   }
-  
+
   .aside {
     display: flex;
     flex-direction: column;
@@ -742,72 +742,72 @@ body {
     padding-top: 55px;
     padding-left: 30px;
   }
-  
+
   .aside__content {
     padding-top: 21px;
     padding-left: 4px;
   }
-  
+
   .aside__it-about {
     padding-left: 423px;
     margin-top: -308px;
     margin-bottom: 50px;
   }
-  
+
   .display__foto {
     margin-bottom: 5px;
   }
-  
+
   .information__number-title-aside {
     font-size: 35px;
     padding-top: 4px;
   }
-  
+
   .information__number-subtitle-aside {
     padding-top: 13px;
     padding-left: 12px;
   }
-  
+
   .information__number-text-aside {
     padding-left: 21px;
     margin-top: -5px;
   }
-  
+
   .subtitle__aside-second {
     padding-left: 0;
   }
-  
+
   .text__aside-second {
     padding-left: 0;
   }
-  
+
   .information__group-second-aside {
     display: flex;
     justify-content: end;
     width: 66%;
   }
-  
+
   .test__foto-aside {
     width: 210px;
     display: flex;
     height: 46px;
     padding-top: 20px;
   }
-  
+
   .information__block__button-aside {
     width: 220px;
     height: 55px;
     margin-top: 23px;
     margin-left: 3px;
   }
-  
+
   .section-third {
     flex-direction: column-reverse;
     width: 100%;
     background-position: 94px 73px;
     background-size: 586px;
   }
-  
+
   .section-third__car {
     background: url("image/Car frame group (3).png") no-repeat;
     background-position-x: -1px;
