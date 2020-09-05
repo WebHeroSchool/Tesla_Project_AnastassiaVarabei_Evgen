@@ -547,19 +547,19 @@ body {
   .menu__link {
     display: none;
   }
-  
+
   .section-first {
     background-position-y: 80px;
   }
-  
+
   .information {
     max-width: 700px;
   }
-  
+
   .content__img {
     width: 100%;
   }
-  
+
   .aside {
     height: 100%;
   }
