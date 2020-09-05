@@ -8,7 +8,8 @@
 
   /* IE9 Compat Modes */
 
-  src: local('Montserrat Regular'),
+  src:
+    local('Montserrat Regular'),
     local('Montserrat-Regular'),
     url('./fonts/montserrat-v14-latin_cyrillic-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
 
