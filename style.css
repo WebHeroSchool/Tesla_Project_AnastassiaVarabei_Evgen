@@ -1,81 +1,64 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
+
 body {
     margin: 0 auto;
     max-width: 1440px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
-    background: #FFFFFF;
+    background: #ffffff;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /*height: 51px;*/
-    padding: 24px 60px 0 43px;
-    /*padding: 0;*/
-    /*margin-top: 24px;*/
-    /*margin-left: 42.7px;*/
+    padding: 25px 60px 0 41px;
 }
+
 .header__logo {
     display: flex;
     width: 166px;
     height: 51px;
-    /*margin-right: 258px;*/
 }
+
 .header__menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 490px;
-    margin-left: 40px;
-    /*padding-left: 258px;*/
-    /*top: 2px;*/
+    margin-left: 38px;
 }
+
 .menu__link {
     text-decoration: none;
     font-weight: 600;
     font-size: 15px;
-    line-height: 30px;
+    line-height: 33px;
     color: #000000;
 }
-/*.menu__link:nth-child(1) {*/
-/*    !*padding-left: 63px;*!*/
-/*    padding-right: 25px;*/
-/*}*/
-/*.menu__link:nth-child(2) {*/
-/*    padding-left: 63px;*/
-/*    padding-right: 25px;*/
-/*}*/
-/*.menu__link:nth-child(4) {*/
-/*    padding-left: 45px;*/
-/*    padding-right: 46px;*/
-/*}*/
-/*.menu__link:nth-child(5) {*/
-/*   padding-right: 221px;*/
-/*}*/
-/*.menu__link:hover {*/
-/*    color: #e51937;*/
-/*    border-bottom: 2px solid #e51937;*/
-/*}*/
+
 .menu__link__active {
     color: #e51937;
     border-bottom: 2px solid #e51937;
 }
+
 .header__menu-second {
     width: 205px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 .header__button {
     background-color: transparent;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -83,16 +66,19 @@ body {
     align-items: center;
     line-height: 30px;
 }
+
 .header__burger {
     width: 24px;
     height: 22px;
 }
+
 .section-first {
     max-width: 1440px;
-    /*height: 594px;*/
     background: url("image/Tesla-Wordmark-Red.png") no-repeat;
     background-position-y: 56px;
+    background-size: 100%;
 }
+
 .section-first__title {
     width: 100%;
     padding-top: 58px;
@@ -101,6 +87,7 @@ body {
     text-align: center;
     color: #000000;
 }
+
 .section-first__subtitle {
     text-align: center;
     font-weight: 500;
@@ -108,123 +95,106 @@ body {
     margin-top: -10px;
     color: #000000;
 }
+
 .content {
     text-align: center;
 }
+
 .content__img {
     padding-top: 25px;
     padding-right: 70px;
-
 }
+
 .information {
     display: flex;
-    justify-content: center;
     align-items: center;
-    /*padding-left: 135px;*/
+    margin: 0 auto;
+    max-width: 810px;
 }
-.about {
+
+.information__group {
     display: flex;
-    width: 450px;
+    width: 50%;
+}
+
+.information__group-first {
+    width: 66%;
+}
+
+.information__group-second {
     justify-content: space-around;
 }
+
 .time__information {
     display: flex;
     padding-left: 10px;
 }
-.about__time {
+
+.information__block {
     display: flex;
-    /*padding-left: 316px;*/
-    padding-top: 21px;
+    width: 50%;
+    padding-top: 19px;
 }
+
 .time__foto {
     padding-top: 11px;
 }
-.time__number {
+
+.information__number-title {
     display: flex;
-    /*padding-left: 10px;*/
+    padding-left: 10px;
     padding-top: 6px;
     font-weight: 600;
     font-size: 35px;
-    line-height: 43px;
     color: #000000;
 }
-.time__text {
-    padding-top: 21px;
+
+.information__number-subtitle {
+    padding-top: 13px;
     padding-left: 8px;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
     color: #000000;
 }
-.time__desc {
+
+.information__number-text {
     font-size: 12px;
-    padding-top: 47px;
-    margin-left: -94px;
+    padding-left: 10px;
+    margin-top: -3px;
 }
-.speed__information {
-    display: flex;
-    padding-left: 8px;
-}
-.about__speed {
-    display: flex;
-    /*padding-left: 94px;*/
-    padding-top: 24px;
-}
+
 .speed__foto {
     padding-top: 9px;
-    /*height: 64px;*/
 }
-.speed__number {
-    /*padding-left: 8px;*/
-    font-weight: 600;
-    font-size: 35px;
-    color: #000000;
+
+.test__foto {
+    padding-left: 16px;
+    padding-top: 7px;
 }
-.speed__text {
-    padding-top: 14px;
-    padding-left: 7px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #000000;
-}
-.speed__desc {
-    padding-top: 41px;
-    margin-left: -85px;
-    font-size: 12px;
-    color: #000000;
-}
-.information-block {
-    width: 320px;
-    display: flex;
-    justify-content: space-between;
-}
-.test {
-    /*display: flex;*/
-    /*!*padding-left: 796px;*!*/
-    /*margin-top: -45px;*/
-}
-.button {
+
+.information__block__button {
     width: 160px;
     height: 40px;
-    /*margin-left: 959px;*/
-    /*margin-top: -38px;*/
-    border: 2px solid #E51937;
+    margin-right: 5px;
+    margin-top: 17px;
+    border: 2px solid #e51937;
     box-sizing: border-box;
 }
+
 .button__text {
     font-weight: bold;
     font-size: 13px;
     text-transform: uppercase;
-    color: #E51937;
+    color: #e51937;
     background: transparent;
-    padding-top: 9px;
+    margin-top: -18px;
     padding-left: 41.5px;
     letter-spacing: .8px;
 }
+
 .section-first__arrow {
     width: 28px;
     height: 14px;
-    /*padding-left: 703px;*/
     padding-top: 26px;
     margin: 0 auto;
 }
@@ -235,159 +205,153 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("image/2013-tesla-model-s-cockpit.png");
-    background-position: 0 285px;
+    background-position: -5px 107px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 90%;
 }
+
 .section-second__title {
-    padding-left: 80px;
+    width: 31%;
+    text-align: center;
     padding-top: 118px;
     font-weight: 600;
     font-size: 70px;
     line-height: 85px;
-    color: #E51937;
+    color: #e51937;
 }
+
 .aside {
     width: 440px;
-    height: 900px;
+    margin-top: -146px;
     margin-left: auto;
-    margin-top: -151px;
     padding-top: 52px;
     padding-left: 47px;
-    background: #E51937;
+    padding-bottom: 23px;
+    background: #e51937;
 }
+
 .aside__title {
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
     padding-left: 5px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 .aside__content {
     width: 316px;
     height: 206px;
     padding-top: 11px;
     font-weight: 500;
     font-size: 15px;
-    margin-bottom: 67px;
+    margin-bottom: 44px;
     padding-left: 5px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
+.information__block__aside,
+.information__number-title-aside,
+.information__number-subtitle-aside {
+    color: #ffffff;
+    width: 100%;
+}
+
 .aside__it-about {
-    width: 269px;
-    height: 276px;
+    padding-left: 3px;
+    margin-bottom: 155px;
 }
-.it-about__display {
-    display: flex;
-    width: 187px;
-    height: 65px;
-    padding-left: 5px;
+
+.information__number-title-aside {
+    padding-top: 1px;
+    padding-left: 19px;
 }
+
+.information__number-subtitle-aside {
+    padding-left: 11px;
+}
+
+.information__number-text-aside {
+    padding-left: 21px;
+}
+
 .display__foto {
     padding-top: 10px;
+    margin-bottom: 18px;
 }
-.display__number {
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 43px;
-    padding-left: 18px;
-    color: #FFFFFF;
-}
-.display__text {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    padding-top: 12px;
-    padding-left: 10px;
-    color: #FFFFFF;
-}
-.display__desc {
-    font-size: 12px;
-    line-height: 15px;
-    padding-top: 40px;
-    margin-left: -132px;
-    color: #FFFFFF;
-}
-.it-about__wifi {
-    display: flex;
-    height: 71px;
-    padding-top: 34px;
-    padding-bottom: 95px;
-}
+
 .wifi__foto {
-    width: 269px;
-    height: 71px;
+    width: 44px;
+    height: 34px;
+    margin-top: 18px;
+    margin-right: 18px;
 }
-.it-about__capaciti {
-    display: flex;
-    width: 202px;
-    height: 66px;
+
+.subtitle__aside-second {
+    padding-left: 0;
 }
+
+.text__aside-second {
+    padding-left: 0;
+}
+
 .capaciti__foto {
     padding-top: 13px;
     padding-left: 5px;
 }
-.capaciti__number {
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 43px;
-    padding-left: 24px;
-    color: #FFFFFF;
+
+.test__foto-aside {
+    padding-left: 0;
 }
-.capaciti__text {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    padding-top: 15px;
-    padding-left: 10px;
-    color: #FFFFFF;
+
+.information__block__icon-aside {
+    width: 48%;
 }
-.capaciti__desc {
-    font-size: 12px;
-    line-height: 15px;
-    padding-top: 42px;
-    margin-left: -142px;
-    color: #FFFFFF;
+
+.information__block__button-aside {
+    margin-top: 17px;
 }
-.aside__test {
-    margin-top: 168px;
-    margin-left: 2px;
+
+.information__group-second-aside {
+    width: 100%;
+    margin-bottom: 40px;
+    justify-content: end;
 }
-.aside__button {
+
+.information__block__button-aside {
+    border: 2px solid #ffffff;
     width: 160px;
     height: 40px;
-    margin-left: 188px;
-    margin-top: -39px;
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
 }
-.aside__button button {
-    color: #FFFFFF;
+
+.button__text-aside {
+    color: #ffffff;
 }
+
 .section-third {
     display: flex;
-    max-width: 1488px;
-    max-height: 900px;
     background: url("image/Model S.png");
     background-repeat: no-repeat;
     background-position: 0 145px;
     background-position-x: 647px;
 }
+
 .aside-second {
-    margin-left: -1050px;
-    padding-bottom: 50px;
+    position: absolute;
+    margin-right: auto;
+    padding-bottom: 22px;
     width: 440px;
-    height: 100%;
-    background: #E51937;
+    background: #e51937;
 }
+
 .aside-second__title {
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
     padding-top: 53px;
     padding-left: 56px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 .aside-second__content {
     font-weight: 500;
     font-size: 15px;
@@ -395,36 +359,42 @@ body {
     padding-top: 11px;
     padding-left: 56px;
     width: 370px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 .subtitle__text {
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
     padding-top: 55px;
     padding-left: 56px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 .aside-second__reting {
     display: flex;
     padding-left: 57px;
     padding-top: 28px;
 }
+
 .reting__text {
     font-weight: bold;
     font-size: 17px;
     line-height: 21px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 .text__link:nth-child(2) {
     padding-top: 17px;
     padding-bottom: 15px;
 }
+
 .text__link:nth-child(3) {
     display: flex;
     padding-bottom: 15px;
 }
+
 .text__link:nth-child(4) {
     padding-bottom: 17px;
 }
@@ -433,10 +403,12 @@ body {
     padding-top: 8px;
     padding-bottom: 9px;
 }
+
 .star__link:nth-child(4) {
     padding-top: 8px;
     padding-bottom: 9px;
 }
+
 .text__link__title {
     font-weight: bold;
     font-size: 10px;
@@ -444,575 +416,745 @@ body {
     text-transform: uppercase;
     padding-top: 7px;
     padding-left: 2px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 .reting__star {
     margin-left: 29px;
     width: 160px;
     justify-content: space-between;
 }
+
 .star__foto {
     width: 25px;
 }
+
 .star__list,
 .text__list {
     list-style: none;
 }
+
+.information__block__aside-five {
+    padding-top: 5px;
+}
+
 .aside-second__five {
     display: flex;
     padding-left: 64px;
-    padding-top: 98px;
+    padding-top: 92px;
 }
-.aside-second__test {
-    display: flex;
-    padding-left: 37px;
-    padding-top: 55px;
+
+.text__foto {
+    width: 62px;
+    height: 82px;
+    padding-top: 10px;
 }
-.aside-second__button {
-    width: 160px;
-    height: 40px;
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    margin-left: 225px;
-    margin-top: -36px;
+
+.number__title__aside-five,
+.number__subtitle__aside-five {
+    font-size: 50px;
 }
-.aside-second__button button {
-    padding-top: 12px;
-    color: #FFFFFF;
+
+.number__title__aside-five {
+    padding-left: 23px;
 }
+
+.number__subtitle__aside-five {
+    padding-top: 0;
+}
+
+.number__text__aside-five {
+    font-size: 25px;
+    margin-top: -9px;
+}
+
+.group__second__aside-five {
+    justify-content: center;
+    padding-right: 27px;
+    padding-top: 44px;
+}
+
 .section-third__car {
     padding-top: 172px;
+    padding-left: 344px;
 }
+
 .car__foto {
     position: relative;
-    left: 343px;
+    width: 100%;
 }
+
 /*Адаптивное отображение*/
+
+@media (max-width: 1411px) {
+    .section-second {
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .section-second {
+        background-position: -5px 123px;
+    }
+}
+
+@media (max-width: 1251px) {
+    .section-second {
+        background-position: -5px 200px;
+    }
+}
+
+@media (max-width: 1121px) {
+    .section-second {
+        background-position: -5px 280px;
+    }
+}
+
 @media (max-width: 1024px) {
     .header {
         width: 100%;
     }
+
     .header__menu,
     .header__button,
     .menu__link {
         display: none;
     }
-    /*.header__logo {*/
-    /*    margin-right: 200px;*/
-    /*}*/
-    /*.header__burger {*/
-    /*    padding-left: 518px;*/
-    /*    padding-top: 24px;*/
-    /*}*/
+
     .section-first {
-        background-size: 1000px;
+        background-position-y: 80px;
     }
-    .content {
-        /*padding-left: 10px;*/
-        /*padding-top: 90px;*/
+
+    .information {
+        max-width: 700px;
     }
+
     .content__img {
         width: 100%;
     }
-    .about__time {
-        /*padding-left: 70px;*/
-    }
-    .test {
-        /*padding-left: 550px;*/
-    }
-    .button {
-        /*margin-left: 720px;*/
-    }
-    .section-first__arrow {
-        /*padding-left: 460px;*/
-    }
+
     .aside {
-        /*margin-left: 574px;*/
         height: 100%;
-        margin-top: 0;
     }
+
     .section-second {
-        background-position: 0 475px;
-        background-size: 95%;
+        background-position: 0 360px;
     }
-    .section-second__title {
-        margin-bottom: -100px;
-    }
-    .aside__test {
-        margin-top: 100px;
-        margin-bottom: 20px;
-    }
-    .aside__button {
-        margin-top: -60px;
-        margin-bottom: 30px;
-    }
+
     .section-third {
         background-size: 555px;
         background-position: 450px 145px;
     }
+
     .aside-second {
         width: 40%;
     }
+
     .car__foto {
-        width: 70%;
-        left: 291px;
         top: 155px;
     }
+
 }
+
 @media (max-width: 960px) {
-    .section-first {
-        background-size: 900px;
-    }
-    .about {
+    .information__group {
         width: 380px;
     }
+}
+
+@media (max-width: 920px) {
     .section-second {
-        background-position: 0 483px;
+        background-position: 0 440px;
     }
 
-    .aside {
-        margin-left: 581px;
+    .section-second__title {
+        width: 40%;
     }
-}
-@media (max-width: 900px) {
-    .about {
+
+    .information__group {
         width: 330px;
     }
 
 }
 
+@media (max-width: 850px) {
+    .information {
+        max-width: 650px;
+    }
+}
 
 @media (max-width: 768px) {
     body {
         width: 100%;
     }
+
     .header {
         width: 100%;
-        /*margin-top: 14px;*/
-        /*margin-left: 10px;*/
+        padding: 25px 47px 0 15px;
     }
-    .header__logo {
-        /*margin-top: 10px;*/
-        /*margin-left: 5px;*/
-        /*margin-right: 0;*/
-    }
-    .header__burger {
-        /*padding-left: 518px;*/
-        /*padding-top: 24px;*/
-    }
+
     .header__burger img {
         width: 36px;
         height: 22px;
     }
+
     .section-first {
         width: 100%;
-        background-size: 845px;
         background-repeat: no-repeat;
-        background-position: -14px 186px;
-        /*margin-bottom: 150px;*/
+        background-position: -5px 181px;
+        background-size: 822px;
     }
+
     .section-first__title {
-        /*max-width: 768px;*/
-        padding-top: 90px;
+        padding-top: 80px;
     }
-    .section-first__subtitle {
-        margin-left: 16px;
-        /*font-size: 12px;*/
-        margin-top: -9px;
-    }
+
     .content {
         width: 100%;
         padding-left: 0;
         margin-top: -24px;
     }
+
     .content__img {
-        width: 100%;
-        /*height: 323.64px;*/
+        width: 95%;
         margin-top: 88px;
-        /*margin-left: 34px;*/
+        padding-right: 16px;
+        padding-left: 13px;
     }
+
     .information {
         flex-direction: column;
-        width: 85%;
+        max-width: 500px;
     }
-    .about {
+
+    .information__group {
         width: 100%;
-        /*margin-top: 17px;*/
-        margin: 0 auto;
-        /*padding-left: 76px;*/
-    }
-    .information-block {
         margin: 0 auto;
     }
-     .time__foto {
-        width: 74.92px;
-        height: 86.16px;
+
+    .time__foto {
+        width: 77px;
+        height: 111px;
     }
-    .time__number {
+
+    .information__number-title {
         font-size: 50px;
+        padding-top: 12px;
+    }
+
+    .information__number-subtitle {
+        padding-top: 22px;
         padding-left: 15px;
-        padding-top: 10px;
     }
-    .time__text {
-        font-size: 20px;
-        padding-left: 10px;
-        padding-top: 23px;
+
+    .information__number-text {
+        padding-left: 14px;
+        margin-top: -1px;
     }
-    .time__desc {
-        margin-left: -118px;
-        margin-top: 13px;
-    }
+
     .speed__foto {
-        width: 102px;
-        height: 84px;
+        width: 90px;
+        height: 104px;
+        padding-top: 20px;
+        padding-left: 32px;
+        margin-bottom: 40px;
     }
-    .speed__number {
-        font-size: 50px;
-        margin-left: -20px;
-        margin-top: -7px;
-    }
-    .speed__text {
-        font-size: 20px;
-        padding-left: 10px;
-        padding-top: 15px;
-    }
-    .speed__desc {
-        margin-left: -128px;
-        margin-top: 12px;
-    }
+
     .information-block {
         width: 100%;
+        margin: 0 auto;
     }
-    .test {
-        /*padding-top: 109px;*/
-        width: 210px;
+
+    .information__block__icon {
+        width: 238px;
         background: url("image/Test drive 1 (red).png") no-repeat;
         background-position: center;
-        /*margin-top: 59px;*/
-        /*margin-left: 173px;*/
     }
 
     .test__foto {
         display: none;
     }
-    .button {
-        /*margin-left: 371px;*/
-        /*margin-top: -120px;*/
-        width: 220.84px;
-        height: 55.21px;
-        background: #E51937;
+
+    .information__block__button {
+        width: 220px;
+        height: 55px;
+        background: #e51937;
+        margin-right: 40px;
+        margin-top: 7px;
     }
+
     .button__text {
         font-size: 16px;
         text-transform: uppercase;
-        padding-top: 18px;
         padding-left: 65px;
-        color: #FFFFFF
+        color: #ffffff;
     }
+
     .section-first__arrow {
-        /*padding-left: 368px;*/
-        /*padding-top: 60px;*/
+        padding-top: 60px;
     }
+
     .section-second {
         background: url("image/2013-tesla-model-s-cockpit (1).png") no-repeat;
-        background-position-y: 260px;
+        background-position-y: 82px;
     }
+
     .section-second__title {
-        /*margin-top: 308px;*/
-        /*margin-left: 435px;*/
-        width: 767px;
-        height: 530px;
+        width: 100%;
+        height: 575px;
+        padding-top: 91px;
+        text-align: end;
+        padding-right: 46px;
     }
+
     .aside {
         display: flex;
         flex-direction: column;
         margin-top: 9px;
         margin-left: 0;
-        width: 767px;
+        width: 100%;
         height: 485px;
         padding-top: 55px;
         padding-left: 30px;
     }
+
     .aside__content {
         padding-top: 21px;
         padding-left: 4px;
     }
+
     .aside__it-about {
-        padding-left: 419px;
+        padding-left: 423px;
         margin-top: -308px;
-    }
-    .it-about__wifi {
-        padding-top: 21px;
-        padding-left: 1px;
-        padding-bottom: 90px;
-    }
-    .aside__test {
-        margin-top: 60px;
-        margin-left: 123px;
+        margin-bottom: 50px;
     }
 
-    .aside__test img {
+    .display__foto {
+        margin-bottom: 5px;
+    }
+
+    .information__number-title-aside {
+        font-size: 35px;
+        padding-top: 4px;
+    }
+
+    .information__number-subtitle-aside {
+        padding-top: 13px;
+        padding-left: 12px;
+    }
+
+    .information__number-text-aside {
+        padding-left: 21px;
+        margin-top: -5px;
+    }
+
+    .subtitle__aside-second {
+        padding-left: 0;
+    }
+
+    .text__aside-second {
+        padding-left: 0;
+    }
+
+    .information__group-second-aside {
         display: flex;
-        width: 239px;
+        justify-content: end;
+        width: 66%;
     }
-    .aside__button {
-        width: 220.84px;
-        height: 55.21px;
-        border: 3px solid #FFFFFF;
-        margin-top: -70px;
-        margin-left: 363px;
+
+    .test__foto-aside {
+        width: 210px;
+        display: flex;
+        height: 46px;
+        padding-top: 20px;
     }
-    .button__text {
-        padding-left: 62px;
+
+    .information__block__button-aside {
+        width: 220px;
+        height: 55px;
+        margin-top: 23px;
+        margin-left: 3px;
     }
+
     .section-third {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         background-position: 94px 73px;
         background-size: 586px;
     }
+
+    .section-third__car {
+        background: url("image/Car frame group (3).png") no-repeat;
+        background-position-x: -1px;
+        background-position-y: 76px;
+        background-size: 96%;
+        height: 1026px;
+    }
+
     .aside-second {
         margin-left: 0;
         padding-bottom: 72px;
-        /*margin-top: 540px;*/
-        width: 768px;
+        width: 100%;
         height: 487px;
-        /*display: flex;*/
     }
+
     .aside-second__title {
-        width: 500px;
+        max-width: 500px;
         padding-top: 63px;
         padding-left: 34px;
     }
+
     .aside-second__content {
         padding-top: 14px;
         padding-left: 34px;
         width: 350px;
     }
+
     .aside-second__subtitle {
         padding-left: 365px;
         margin-top: -271px;
     }
+
     .aside-second__reting {
         padding-left: 423px;
     }
+
     .aside-second__five {
         display: none;
     }
+
     .aside-second__test {
-        /*margin-bottom: 131px;*/
         padding-top: 0;
-        /*padding-bottom: 55px;*/
-    }
-    .aside-second__test img {
-        display: flex;
-        width: 327px;
-        padding-top: 82px;
-        padding-left: 121px;
-    }
-    .aside-second__button {
-        /*margin-top: -233px;*/
-        margin-left: 391px;
-        width: 220px;
-        height: 55px;
-        border: 3px solid #FFFFFF;
     }
 
-    .section-third__car {
-        background: url("image/Car frame group (3).png") no-repeat;
-        background-position-y: 79px;
-        padding-top: 539px;
+    .group__second__aside-five {
+        justify-content: flex-end;
     }
+
     .car__foto {
         display: none;
     }
+
 }
-@media (max-width: 375px) {
+
+@media (max-width: 691px) {
+    .aside__it-about {
+        padding-left: 387px;
+    }
+
+    .subtitle__text {
+        padding-left: 3px;
+    }
+
+    .aside-second__reting {
+        padding-left: 370px;
+    }
+
+}
+
+@media (max-width: 660px) {
+    .information {
+        max-width: 400px;
+    }
+
+    .aside__it-about {
+        display: none;
+    }
+
+    .subtitle__text {
+        display: none;
+    }
+
+    .aside-second__reting {
+        display: none;
+    }
+
+    .information__group-second-aside {
+        display: none;
+    }
+
+}
+
+@media (max-width: 450px) {
     body {
-        width: 375px;
+        width: 100%;
     }
+
+    .section-first {
+        background-size: 100%;
+        background-position: 0 160px;
+    }
+
+    .section-first__title {
+        width: 100%;
+        font-size: 50px;
+        padding-top: 60px;
+    }
+
+    .section-first__subtitle {
+        font-size: 10px;
+    }
+
+    .information {
+        max-width: 350px;
+    }
+
+    .time__foto {
+        width: 40px;
+        height: 58px;
+    }
+
+    .information__number-title {
+        font-size: 27px;
+    }
+
+    .information__number-subtitle {
+        font-size: 15px;
+        padding-top: 13px;
+        padding-left: 6px;
+    }
+
+    .information__number-text {
+        font-size: 10px;
+    }
+
+    .speed__foto {
+        width: 64px;
+        height: 73px;
+    }
+
+    .information__group-second {
+        justify-content: space-between;
+    }
+
+    .information__block__icon {
+        width: 160px;
+    }
+
+    .information__block__button {
+        width: 160px;
+        height: 40px;
+        margin-right: 0;
+    }
+
+    .button__text {
+        padding-left: 35px;
+    }
+
+    .section-first__arrow {
+        padding-top: 40px;
+    }
+
+    .section-second {
+        background-size: 100%;
+    }
+
+    .section-second__title {
+        padding-top: 51px;
+        font-size: 50px;
+        height: 357px;
+    }
+
+    .aside {
+        height: 100%;
+        margin: 0 auto;
+        padding-left: 45px;
+    }
+
+    .aside__it-about,
+    .information__group-second-aside {
+        display: none;
+    }
+
+    .section-third {
+        background-size: 100%;
+        background-position: 7px 73px;
+    }
+
+    .section-third__car {
+        height: 680px;
+    }
+
+    .aside-second {
+        height: 340px;
+    }
+
+    .aside-second__title {
+        width: 100%;
+    }
+
+    .aside-second__subtitle,
+    .aside-second__reting {
+        display: none;
+    }
+
+}
+
+@media (max-width: 380px) {
     .header {
-        max-width: 355px;
         height: 48px;
-        /*margin-left: -4px;*/
-        /*margin-top: 17px;*/
+        padding: 27px 23px 0 4px;
     }
+
     .header__logo {
         width: 138px;
         height: 42px;
     }
-    .header__burger {
-        /*padding-left: 192px;*/
-        /*padding-top: 20px;*/
-    }
+
     .header__burger img {
         width: 24px;
         height: 15px;
+        margin-top: 13px;
     }
+
     .section-first {
-        /*max-width: 355px;*/
-        background-size: 420px;
-        background-position: -16px 170px;
-        /*margin-bottom: 50px;*/
+        background-position: -17px 130px;
+        background-size: 421px;
     }
+
     .section-first__title {
-        /*width: 375px;*/
-        padding-top: 90px;
-        font-size: 50px;
-        /*margin-top: -56px;*/
+        padding-top: 49px;
     }
+
     .section-first__subtitle {
-        margin-left: 21px;
-        font-size: 10px;
         margin-top: -2px;
     }
+
     .content__img {
         width: 100%;
-        /*height: 166px;*/
         margin-top: 48px;
-        /*margin-left: 9px*/
     }
-    .about {
-        padding-left: 0;
+
+    .information {
+        max-width: 300px;
     }
-    .about__time {
-        /*padding-left: 40px;*/
-        padding-top: 0;
+
+    .information__block {
+        padding-top: 15px;
     }
+
     .time__foto {
         width: 45.92px;
         height: 50.16px;
+        padding-top: 20px;
     }
-    .time__number {
-        font-size: 27px;
-        padding-left: 10px;
-        margin-top: -12px;
-    }
-    .time__text {
-        font-size: 15px;
+
+    .information__number-subtitle {
+        padding-top: 11px;
         padding-left: 9px;
-        padding-top: 12px;
     }
-    .time__desc {
-        font-size: 10px;
-        margin-left: -75px;
-        margin-top: -11px;
+
+    .information__number-text {
+        padding-left: 10px;
     }
-    .about__speed {
-        padding-top: 0;
-        /*padding-left: 36px;*/
-    }
+
     .speed__foto {
-        width: 55px;
-        height: 52px;
+        width: 48px;
+        height: 60px;
+        padding-top: 17px;
+        padding-left: 16px;
+        margin-bottom: 32px;
     }
-    .speed__number {
-        font-size: 27px;
-        margin-left: -10px;
-        margin-top: 3px;
-    }
-    .speed__text {
-        font-size: 15px;
-        padding-left: 8px;
-        padding-top: 15px;
-    }
-    .speed__desc {
-        font-size: 10px;
-        line-height: 12px;
-        margin-left: -77px;
-        margin-top: -5px;
-    }
-    .test {
-        /*padding-top: 109px;*/
-        width: 150px;
+
+    .information__block__icon {
+        width: 114px;
         background: url("image/Test drive 1 (red 2).png") no-repeat;
         background-position: center;
-        /*margin-top: 48px;*/
-        /*margin-left: 36px;*/
+        margin-top: 6px;
     }
-    .button {
-        /*margin-left: 179px;*/
-        /*margin-top: -117px;*/
+
+    .information__block__button {
         width: 160px;
         height: 40px;
-        background: #E51937;
+        background: #e51937;
     }
+
     .button__text {
         font-size: 13px;
         text-transform: uppercase;
-        padding-top: 10px;
-        padding-left: 42px;
+        padding-top: 4px;
+        padding-left: 43px;
     }
+
     .section-first__arrow {
-        /*padding-left: 172px;*/
         padding-top: 30px;
     }
+
     .section-second {
         background: url("image/2013-tesla-model-s-cockpit (2).png") no-repeat;
-        background-position-y: -15px;
-        padding-top: 300px;
+        background-position-y: 17px;
+        padding-top: 343px;
     }
+
     .title__text {
         display: none;
     }
+
     .aside {
         width: 100%;
         height: 305px;
         padding-top: 20px;
         padding-left: 21px;
     }
+
     .aside__content {
         padding-top: 8px;
         padding-left: 5px;
     }
+
     .aside__it-about {
         display: none;
     }
-    .aside__test {
-        display: none;
-    }
-    .aside__button {
-        display: none;
-    }
+
     .section-third {
         width: 100%;
-        height: 400px;
         background-position: 2px 49px;
         background-size: 393px;
     }
+
     .aside-second {
         width: 100%;
-        height: 304px;
+        height: 306px;
     }
+
     .aside-second__title {
         width: 100%;
         padding-top: 19px;
         padding-left: 31px;
     }
+
     .aside-second__content {
         padding-top: 12px;
         padding-left: 31px;
         width: 345px;
         line-height: 18px;
     }
+
     .aside-second__subtitle {
         display: none;
     }
+
     .aside-second__reting {
         display: none;
     }
+
     .aside-second__test {
         display: none;
     }
+
     .aside-second__test img {
         display: none;
     }
+
     .aside-second__button {
         display: none;
     }
+
     .section-third__car {
         background: url("image/Group 18.png") no-repeat;
         background-position-y: 57px;
         padding-top: 294px;
+        height: 600px;
     }
+
 }
