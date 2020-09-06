@@ -943,13 +943,13 @@ body {
   }
 
   .group__second__aside-five {
-    width: 65%
+    width: 65%;
   }
 }
 
 @media (max-width: 660px) {
   .button__text {
-    padding-left: 44px
+    padding-left: 44px;
   }
 
   .information {
